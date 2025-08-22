@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Práctica Git – Control de Cambios</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="container">
+    <!-- 👇 ESTA LÍNEA SE EDITARÁ EN DOS RAMAS PARA PROVOCAR CONFLICTO -->
+    <h1>Práctica de Git: Control de Cambios con Ramas y Commits</h1>
+    <p class="sub">Semana 4 – Gestión de la Configuración de Software</p>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>Objetivo</h2>
+      <p>
+        Practicar el flujo básico de Git en local: <strong>init → add → commit → branch → merge</strong>,
+        y resolver un conflicto sencillo en el archivo <code>index.html</code>.
+      </p>
+    </section>
+
+    <section>
+      <h2>Checklist de cambios (para tus commits)</h2>
+      <ul id="tareas">
+        <li>[ ] Cambiar el color del encabezado en <code>styles.css</code>.</li>
+        <li>[ ] Agregar un pie de página (footer) con tu nombre.</li>
+        <li>[ ] Añadir una nueva sección con “Notas de versión”.</li>
+        <li>[ ] Activar el “Modo oscuro” (clase <code>.dark</code> en <code>body</code>).</li>
+      </ul>
+      <button id="btn-oscuro">Alternar modo oscuro</button>
+    </section>
+
+    <section>
+      <h2>Notas de versión</h2>
+      <p id="version">v0.1.0 – Estructura base del proyecto.</p>
+      <p class="hint">
+        Sugerencia: cada cambio pequeño = 1 commit con un mensaje claro.
+      </p>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    <small>© 2025 – Demo para prácticas de Git. Edita este pie de página en una rama.</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
