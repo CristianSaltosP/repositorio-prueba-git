@@ -1,7 +1,7 @@
 :root {
   --bg: #ffffff;
   --fg: #1f2937;
-  --accent: #5dbbb6;
+  --accent: #343d50;
   --muted: #6b7280;
   --card: #f3f4f6;
 }
@@ -67,7 +67,7 @@ button:hover { filter: brightness(0.98); }
 body.dark {
   --bg: #0b1020;
   --fg: #e5e7eb;
-  --accent: #8ab4ff;
+  --accent: #1e90ff;
   --muted: #9aa0a6;
   --card: #11172b;
 }
